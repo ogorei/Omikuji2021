@@ -1,0 +1,68 @@
+body{
+    background-color: #000;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin-left:40%;
+    margin-right:30%;
+
+}
+
+#container{
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    border:2px solid #ccc;
+    flex-direction: column;
+    justify-self: center;
+    padding-bottom:30px;
+}
+
+#container h3, p{
+    text-align: center;
+}
+
+#hiku{
+    display: flex;
+    margin-bottom: 14px;
+    color: #fff;
+    justify-content: center;
+    align-self: center;
+    background-color: #cc9000;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+}
+
+#hiku:hover{
+    background-color: rgb(255, 210, 9);
+}
+
+
+#stop{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-self: center;
+    background-color: #cc1100;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+}
+
+#stop:hover{
+    background-color: maroon;
+}
+
+#resultOutput{
+    margin-top:20px;
+    color: yellow;
+    font-size:1.2em;
+}
+
